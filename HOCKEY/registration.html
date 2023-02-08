@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+      <meta charset="UTF-8" >
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-">
+      <title>Registration</title>
+      <link rel="shortcut icon" href="./assets/LogoMightyducks-01.png" type="image/x-icon">
+      <link rel="stylesheet" media="(min-width: 375px)" href="style/movile.css">
+      <link rel="stylesheet" href="style/style.css"> 
+
+      
+</head>
+<body>
+   
+   
+    <header class="titulo" >
+        
+        <h1> Might Ducks Hockey League</h1>
+        
+        <img src="./assets/LogoMightyducks-01.png" alt="imagen1" id="logo1">
+
+        <nav>
+          <a href="index.html" >Home</a>
+          <a href="about.html" >About MDHL</a>
+          <a href="contact.html" >Contact</a>
+          <a href="gameinfo.html" >Games</a>
+          <a href="rules.html" >Rules</a>
+          <a href="registration.html" >Registration</a>
+        </nav> 
+        
+      </header>
+    
+    
+    <main>
+        <h2 id="subtitle"> Registration From</h2>
+
+    
+     <form action="show_data.html" method="get">
+       <fieldset>
+          <label for="fname">Players First Name:</label>
+          <input type="text" name="fname" id="fname">
+          <label for="lname"> Last Name:</label>
+          <input type="text" name="lname" id="lname">
+       </fieldset>  
+       <fieldset>  
+          <label for="street">Street Address:</label>
+          <input type="text" name="street" id="street">
+        </fieldset>
+        <fieldset>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+            <label for="zcode">Zip Code:</label>
+            <input type="number" name="zcode" id="zcode">
+        </fieldset>
+        <fieldset>
+                <label>
+                 Brithday Date: 
+                <input type="date" name="" id="">
+                <label>
+                <legend>Gender:</legend>
+                <label>
+                    F
+                    <input type="checkbox" name="Femenine" value="F">
+                </label> 
+                <label>
+                    M
+                    <input type="checkbox" name="male" value="M">
+                </label>   
+        </fieldset>
+        <fieldset>
+         <legend>Grade:</legend>
+                <label>
+                    Pre-School
+                    <input type="checkbox" name="Pre-School" value=""><br>
+                </label> 
+                <label>
+                    1st
+                    <input type="checkbox" name="1st" value="">
+                    2nd
+                    <input type="checkbox" name="2nd" value="">
+                    3rd
+                    <input type="checkbox" name="3rd" value="">
+                    4th
+                    <input type="checkbox" name="4th" value="">
+                    5th
+                    <input type="checkbox" name="5th" value="">
+                </label>               
+                  
+        </fieldset><br>
+        <fieldset>
+          <br>
+         
+        
+            <legend> Which elementary school do you live near ?</legend>
+               
+             <label>
+                Closest School:
+                AJ Katzenmaier
+                <input type="checkbox" name=" AJ Katzenmaier" >
+                Grennbay
+                <input type="checkbox" name="Grennbay" >
+                Howard A Yeagers
+                <input type="checkbox" name="Howard A Yeagers" >
+                Marjorie P Hart 
+                <input type="checkbox" name="Marjorie P Hart" >
+                North Elementary
+                <input type="checkbox" name="North Elementary" >
+                South Elementary
+                <input type="checkbox" name="South Elementary" >
+             </label>
+        </fieldset>    
+        <br>
+        
+        <fieldset>
+        <legend>What position(s) do you normally play? (check all that apply).</legend><br>
+
+            <label>
+                Forward
+                <input type="checkbox" name="Forward" >
+                Defense
+                <input type="checkbox" name="Defense" >
+                Misfield
+                <input type="checkbox" name="Misfield" >
+                Goalkeeper
+                <input type="checkbox" name="Goalkeeper" >
+                
+             </label>
+        </fieldset>      
+
+        <fieldset>
+            <legend>Uniform Size</legend><br>
+    
+                <label>
+                    Youth Small
+                    <input type="checkbox" name="Youth Small" >
+                    Youth Medium
+                    <input type="checkbox" name="Youth Medium" >
+                    Youth Large 
+                    <input type="checkbox" name="Youth Large" >
+                    Small
+                    <input type="checkbox" name="Small" >
+                    Medium
+                    <input type="checkbox" name="Medium" >
+                    Large
+                    <input type="checkbox" name="Large" >
+                    Extra Large
+                    <input type="checkbox" name="Extra Large" >
+                    
+                 </label>
+            </fieldset> 
+
+            <fieldset>
+                <legend>Permision to play</legend>
+                <p>I, the parent or guardian of the mirror registrant, agree that the registrant and i will abide 
+                    by all the rules of the Might Ducks Hockey League (MDHL). In reconizing the posibility of physical 
+                    injuri associated with hockey and in consideration for the "Laegue" accepting the registrant for its 
+                    hockey program and activities, i hereby release, discharge, and/or otherwise indemnify MDHL , their 
+                    employees and associated personnel and volunteers, including the facilities used for practice and games,
+                    against any claim by or behalf of the registrant as a result  of the registrant´s participation in the 
+                    program/orbeing transported to or from MDHL sponsored activities, which tranportation.
+                    By  signing below, i herebyagree andauthorizethe above.In addition, by signing below, lalso 
+                    acknowledge that i have read the cancelation policy and agree to its terms.</p>
+                    <br>
+                    
+                    <label for="parent">Parent/GuardianSignature:</label>
+                    <input type="text" name="parent" id="parent">
+                    <label for="date">Date:</label>
+                    <input type="date" name="" id="">
+                    
+                
+               
+            </fieldset>
+            <input type="submit" value="Date Send" id="send">
+
+          
+       
+     </form>
+    </main> 
+    <footer>
+        <p> ® Might Ducks Hockey League </p>
+    </footer>
+</body>
